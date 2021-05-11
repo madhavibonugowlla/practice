@@ -148,4 +148,16 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>prabu-releases</name>
+        <url>http://localhost:8081/artifactory/jenkins-maven</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>prabu-snapshots</name>
+        <url>http://localhost:8081/artifactory/jenkins-maven</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
