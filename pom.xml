@@ -2,12 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>google.com</groupId>
-    <artifactId>com.google</artifactId>
-    <version>google1.0</version>
+    <groupId>twitter.com</groupId>
+    <artifactId>com.twitter</artifactId>
+    <version>twitter1.0</version>
     <packaging>jar</packaging>
 
-    <name>com.google</name>
+    <name>com.twitter</name>
     <description>Blank project for GraalVM + Spring MVC</description>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -148,16 +148,4 @@
             <url>https://jitpack.io</url>
         </repository>
     </repositories>
-    <distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>prabu-releases</name>
-        <url>http://localhost:8081/artifactory/jenkins-maven</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>prabu-snapshots</name>
-        <url>http://localhost:8081/artifactory/jenkins-maven</url>
-    </snapshotRepository>
-</distributionManagement>
 </project>
